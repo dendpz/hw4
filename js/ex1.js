@@ -1,3 +1,4 @@
+// Calculator function
 function calculator() {
   const numInput1 = Number(prompt("Enter a number: "));
   const numInput2 = Number(prompt("Enter another number: "));
