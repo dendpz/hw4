@@ -16,12 +16,15 @@ while (i === 0) {
     attempt++;
     if (userInput > randNumber) {
       alert("Too high, guess again");
+      console.log("Too high, guess again");
     }
     else if (userInput < randNumber) {
       alert("Too low, guess again");
+      console.log("Too low, guess again")
     }
   }
   else if (isNaN(userInput)) {
     alert("Invalid entry, please enter a number!");
+    console.log("Invalid entry, please enter a number!");
   }
 }
