@@ -28,5 +28,3 @@ while (i === 0) {
     console.log("Invalid entry, please enter a number!");
   }
 }
-
-console.log("This is a test data");

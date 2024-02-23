@@ -18,7 +18,7 @@ function palindrome(strVal) {
   const wordValues = strVal.split('')
   const revwordValues = wordValues.reverse();
   const revstrVal = revwordValues.join('');
-  if (strVal === revstrVal) {
+  if (strVal.toLowerCase() === revstrVal.toLowerCase()) {
     const validInput = "is a palindrome";
     return validInput;
   }
